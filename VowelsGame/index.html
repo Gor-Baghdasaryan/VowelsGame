@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="icon" href="/VowelsGame/images/icon.ico" />
+    <script src="script/script.js" defer="defer"></script>
+    <title>VowelsGame</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-container">
+            <div>
+                <div class="sound-vowels-container">
+                    <div>
+                        <label for="inpScoreData">Score</label>
+                        <progress type="range" id="inpScoreData" min="0" max="15" value="0" disabled="disabled" ></progress>
+                    </div>
+                    <div>
+                        <button type="button" id="btnSoundVowels" class="head-btn-icon">&#127925;</button>
+                    </div>
+                    <!-- <label id="scoreData" class="score-data">Score 0</label> -->
+                    <div>
+                        <button type="button" id="btnPreviousLevel" class="btn-level">&#8701</button>
+                        <label id="levelData" class="level-data">Level 1</label>
+                        <button type="button" id="btnNextLevel" class="btn-level">&#8702</button>
+                    </div>
+                </div>
+                <div id="divButtonState" class="sound-vowels-button-container">
+                    <button class="unchecked" value="0" >Close</button>
+                    <button class="unchecked" value="1">Near Close</button>
+                    <button class="unchecked" value="2">Close Mid</button>
+                    <button class="unchecked" value="3">Mid</button>
+                    <button class="unchecked" value="4">Open Mid</button>
+                    <button class="unchecked" value="5">Near Open</button>
+                    <button class="unchecked" value="6">Open</button>
+                </div>
+            </div>
+        </div>
+        <div id="bodyContainer" class="body-container">
+            <div>
+                <div>
+                    <button type="button" class="btn-icon">i</button>
+                    <button type="button" class="btn-icon">y</button>
+                    <button type="button" class="btn-icon">ɨ</button>
+                    <button type="button" class="btn-icon">ʉ</button>
+                    <button type="button" class="btn-icon">ɯ</button>
+                    <button type="button" class="btn-icon">u</button>
+                </div>
+            </div>
+            <div>    
+                <div>
+                    <button type="button" class="btn-icon">ɪ</button>
+                    <button type="button" class="btn-icon">ʏ</button>
+                    <button type="button" class="btn-icon">ʊ</button>
+                    <button type="button" class="btn-icon">æ</button>
+                    <button type="button" class="btn-icon">ɐ</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button type="button" class="btn-icon">e</button>
+                    <button type="button" class="btn-icon">ø</button>
+                    <button type="button" class="btn-icon">ɘ</button>
+                    <button type="button" class="btn-icon">ɵ</button>
+                    <button type="button" class="btn-icon">ɤ</button>
+                    <button type="button" class="btn-icon">o</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button type="button" class="btn-icon">e̞</button>
+                    <button type="button" class="btn-icon">ø̞</button>
+                    <button type="button" class="btn-icon">ə</button>
+                    <button type="button" class="btn-icon">ɤ̞</button>
+                    <button type="button" class="btn-icon">o̞</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button type="button" class="btn-icon">ɛ</button>
+                    <button type="button" class="btn-icon">œ</button>
+                    <button type="button" class="btn-icon">ɜ</button>
+                    <button type="button" class="btn-icon">ɞ</button>
+                    <button type="button" class="btn-icon">ʌ</button>
+                    <button type="button" class="btn-icon">ɔ</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button type="button" class="btn-icon">a</button>
+                    <button type="button" class="btn-icon">ɶ</button>
+                    <button type="button" class="btn-icon">ä</button>
+                    <button type="button" class="btn-icon">ɑ</button>
+                    <button type="button" class="btn-icon">ɒ</button>
+                </div>
+            </div>
+        </div>
+        <div class="foot-container">
+            <button type="button" id="btnPlay" class="btn-foot-container">Play</button>
+        </div>
+    </div>
+</body>
+</html>

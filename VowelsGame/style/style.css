@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #9ba8b4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #9c9abf;
+}
+
+.head-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #b8caed;
+    padding: 10px;
+} 
+
+.head-btn-icon {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30%;
+    /* background-image: url(../images/sound.webp); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.btn-icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.body-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.body-container button {
+    width: 60px;
+    height: 60px;
+    margin-right: 40px;
+    /* margin-left: 40px; */
+    border: none;
+    border-radius: 20%;
+}
+
+.body-container button:hover {
+    background-color: #95bee1;
+}
+
+/* .foot-container {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    margin-top: 5px;
+} */
+
+.foot-container button {
+    width: 100px;
+    height: 40px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.score-data, .level-data {
+    justify-content: center;
+    font-size: 22px;
+    color: aquamarine;
+    margin: 15px;
+}
+
+.sound-vowels-container {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 10px;
+    background-color: #86abf0;
+    padding: 10px 140px 10px 140px;
+}
+
+.sound-vowels-button-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.sound-vowels-button-container button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+label {
+    font-size: 22px;
+    margin-right: 20px;
+    color: aquamarine;
+}
+
+.checked {
+    background-color: lightyellow;
+    cursor: pointer;
+}
+
+.unchecked {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.btn-level {
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
